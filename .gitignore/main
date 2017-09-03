@@ -1,0 +1,16 @@
+import random
+ 
+countNum = 0
+listSize = 1
+ 
+while (countNum < listSize)
+     
+    randomNum = list(range(0,1000))
+    n = []
+    #set n as the index and pull whatever is in 
+    #n-index and put it in its own list repeat this 1000 times
+    for x in range(1):
+        n.append(random.choice(randomNum))
+        index = n.index(n)
+        countNum = countNum + 1
+        print (n) 
